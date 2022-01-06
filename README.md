@@ -48,6 +48,8 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+Go to the Browser and open your host in the port 3000 ex click on --> [http://localhost:3000/api](http://localhost:3000/api)
+
 ## Docker
 
 While using Docker set the DB_URL from not `localhost`, use instead Atlas Cloud or a real IP address
