@@ -49,6 +49,8 @@ $ npm run start:prod
 ```
 
 ## Docker
+
+While using Docker set the DB_URL from not `localhost`, use instead Atlas Cloud or a real IP address
 ```bash
 # build and attach
 $ docker-compose up --build
@@ -74,7 +76,6 @@ NODE_ENV=development
 
 #APP
 PORT=3000
-SECRET=S3cr3t
 ```
 
 ## Support
